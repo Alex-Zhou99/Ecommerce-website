@@ -42,12 +42,12 @@ include("includes/db.php");
                         <select name="product_brand" required="required">
                             <option>Select a Brand</option>
                             <?php
-                                $get_brands = "select * from brands";
-                                $run_brands = mysqli_query($con, $get_brands);
-                                while($row_brands = mysqli_fetch_array($run_brands)){
-                                    $brands_id = $row_brands['brands_id'];
-                                    $brands_title = $row_brands['brands_title'];
-                                    echo "<option value='$brands_id'>$brands_title</option>";
+                                $get_brand = "select * from brands";
+                                $run_brand = mysqli_query($con, $get_brand);
+                                while($row_brand = mysqli_fetch_array($run_brand)){
+                                    $brand_id = $row_brand['brand_id'];
+                                    $brand_title = $row_brand['brand_title'];
+                                    echo "<option value='$brand_id'>$brand_title</option>";
                                 } 
                             ?>
                         </select>
