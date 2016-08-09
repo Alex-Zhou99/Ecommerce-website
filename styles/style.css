@@ -83,19 +83,16 @@ body{background: skyblue;}
 }
 。content_wrapper{
     width: 1000px;
-    height: 800px;
     margin: auto;
     background: pink;
 }
 #content_area{
     width: 800px;
-    height: 800px;
     float: right;
     background: pink;
 }
 #sidebar{
     width: 200px;
-    height: 800px;
     background: black;
     float: left;
 }
@@ -127,6 +124,17 @@ body{background: skyblue;}
     color: orange;
     font-weight: bolder;
     text-decoration: underline;
+}
+#products_box{
+    width: 780px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#single_product{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
 }
 #footer{
     width: 1000px;

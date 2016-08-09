@@ -51,12 +51,20 @@ include("functions/functions.php");
                     </ul>
                 </div>
                 
-                <div id="content_area">This is content area</div>
+                <div id="content_area">
+                    <div id="products_box">
+                        <?php getPro(); ?>
+                    </div>
+                </div>
             </div>
             <!-- Content ends here-->
             
             <!-- Footer starts here-->
-            <div id="footer">This is the footer</div>
+            <div id="footer">
+                <h2 style="text-align: center; padding-top: 30px;">&copy;
+                    2016 by edward-shi<!-- &copy元素用于通知版权资料-->
+                </h2>
+            </div>
             <!-- Footer ends here-->
         </div>
         <!-- Main Container ends here-->
