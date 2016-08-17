@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-body{background: skyblue;}
+body{background: red;}
 
 .main_wrapper{
     width: 1000px;
@@ -37,13 +37,11 @@ body{background: skyblue;}
 }
 .header_wrapper{
     width: 1000px;
-    height: 80px;
+    height: 100px;
     margin: auto;
 }
 #logo{
     float: left; 
-    height: 90px;
-    width: 272px;
 }
 #banner{
     float: right;
@@ -51,7 +49,7 @@ body{background: skyblue;}
 #menu{
     padding: 0;/*设置元素的内边距，line-height合理的行间距*/
     margin: 0;
-    line-height: 35px;
+    line-height: 40px;
     float left: 
 }
 #menu li{
@@ -74,7 +72,7 @@ body{background: skyblue;}
 #form{
     float: right;
     padding-right: 8px;
-    line-height: 40px;
+    line-height: 50px;
 }
 .menubar{
     width: 1000px;
@@ -117,7 +115,7 @@ body{background: skyblue;}
     padding: 8px; 
     margin: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-family: comic Sans MS;
     text-decoration: none;
 }
@@ -141,7 +139,7 @@ body{background: skyblue;}
     border: 2px solid black;
 }
 #shopping_cart{
-    width: 1000px;
+    width: 800px;
     height: 50px;
     background: black;
     color: white;

@@ -6,15 +6,15 @@ include("functions/functions.php");
 <html>
 	<head>
 		<title>My Online Shop</title>
-	<link rel="stylesheet" href="styles/style.css" media="all" /> 
+	<link rel="stylesheet" href="styles/styles.css" media="all" /> 
 	</head>
 <body>
 	<!--Main Container starts here-->
 	<div class="main_wrapper">
 		<!--Header starts here-->
 		<div class="header_wrapper">
-			<a href="../index.php"><img id="logo" src="images/logo.gif" /> </a>
-			<img id="banner" src="images/ad_banner.gif" />
+			<a href="../index.php"><img id="logo" src="images/logo2.gif" /> </a>
+			<img id="banner" src="images/ad-banner.gif" />
 		</div>
 		<!--Header ends here-->
 		
@@ -103,13 +103,13 @@ include("functions/functions.php");
 				
 				<?php 
 				if(isset($_GET['edit_account'])){
-				include("edit_account.php");
+				    include("edit_account.php");
 				}
 				if(isset($_GET['change_pass'])){
-				include("change_pass.php");
+				    include("change_pass.php");
 				}
 				if(isset($_GET['delete_account'])){
-				include("delete_account.php");
+				    include("delete_account.php");
 				}
 				
 				

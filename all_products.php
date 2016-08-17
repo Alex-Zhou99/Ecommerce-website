@@ -5,7 +5,7 @@ include("functions/functions.php");
 <html>
     <head>
         <title>My Online Shop</title>
-        <link rel="stylesheet" href="styles/style.css" media="all" />
+        <link rel="stylesheet" href="styles/styles.css" media="all" />
     </head>
     
     <body>
@@ -13,8 +13,8 @@ include("functions/functions.php");
         <div class="main_wrapper">
             <!-- Header starts here-->
             <div class="header_wrapper">
-                <a href="index.php"><img id="logo" src="images/logo.gif"/></a>
-                <img id="banner" src="images/ad-banner.gif"/>
+                <a href="index.php"><img id="logo" src="images/logo2.gif"/></a>
+                <img id="banner" src="images/ad_banner.gif"/>
             </div>
             <!-- Header ends here-->
             
