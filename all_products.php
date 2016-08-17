@@ -5,7 +5,7 @@ include("functions/functions.php");
 <html>
     <head>
         <title>My Online Shop</title>
-        <link rel="stylesheet" href="styles/styles.css" media="all" />
+        <link rel="stylesheet" href="styles/style.css" media="all" />
     </head>
     
     <body>
@@ -13,8 +13,8 @@ include("functions/functions.php");
         <div class="main_wrapper">
             <!-- Header starts here-->
             <div class="header_wrapper">
-                <a href="index.php"><img id="logo" src="images/logo2.gif"/></a>
-                <img id="banner" src="images/ad_banner.gif"/>
+                <a href="index.php"><img id="logo" src="images/logo.gif"/></a>
+                <img id="banner" src="images/ad-banner.gif"/>
             </div>
             <!-- Header ends here-->
             
@@ -23,7 +23,7 @@ include("functions/functions.php");
                 <ul id="menu"><!-- 无序列表-->
                     <li><a href="index.php">Home</a></li>
 				    <li><a href="all_products.php">All Products</a></li>
-				    <li><a href="customer/my_account.php">My Account</a></li>
+				    <li><a href="customers/my_account.php">My Account</a></li>
 				    <li><a href="#">Sign Up</a></li>
 				    <li><a href="cart.php">Shopping Cart</a></li>
 				    <li><a href="#">Contact Us</a></li>
