@@ -27,6 +27,7 @@
 			}
 			else {
 			     $qty=$qty;
+			     $total = $total*$qty;
 			}
 
 
@@ -35,7 +36,7 @@
     <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" >
 
     <!-- Identify your business so that you can collect the payments. -->
-    <input type="hidden" name="business" value="sriniv_1293527277_biz@inbox.com">
+    <input type="hidden" name="business" value="shibusinesstest@gmail.com">
 
     <!-- Specify a Buy Now button. -->
     <input type="hidden" name="cmd" value="_xclick">
@@ -47,8 +48,8 @@
     <input type="hidden" name="quantity" value="<?php echo $qty; ?>">
     <input type="hidden" name="currency_code" value="USD">
 
-    <input type="hidden" name="return" value="http://www.onlinetuting.com/myshop/paypal_success.php"/>
-    <input type="hidden" name="cancel_return" value="http://www.onlinetuting.com/myshop/paypal_cancel.php"/>
+    <input type="hidden" name="return" value="http://contactwithchinese.info/myshop/paypal_success.php"/>
+    <input type="hidden" name="cancel_return" value="http://contactwithchinese.info/myshop/paypal_cancel.php"/>
 
     <!-- Display the payment button. -->
     <input type="image" name="submit" border="0"

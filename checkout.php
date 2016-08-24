@@ -25,9 +25,9 @@ include("functions/functions.php");
                     <li><a href="index.php">Home</a></li>
 				    <li><a href="all_products.php">All Products</a></li>
 				    <li><a href="customers/my_account.php">My Account</a></li>
-				    <li><a href="#">Sign Up</a></li>
+				    <li><a href="customer_register.php">Sign Up</a></li>
 				    <li><a href="cart.php">Shopping Cart</a></li>
-				    <li><a href="#">Contact Us</a></li>
+				    <li><a href="contact_us.php">Contact Us</a></li>
                     <div id="form">
                         <form method="get" action="results.php" enctype="multipart/form-data">
                             <input type="text" name="user_query" placeholder= "Search a Product"/>

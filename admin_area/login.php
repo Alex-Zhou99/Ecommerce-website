@@ -1,4 +1,4 @@
-<?php 
+e<?php 
 session_start();
 ?>
 <!DOCTYPE>
@@ -13,7 +13,7 @@ session_start();
     <h2 style="color:white; text-align:center;"><?php echo @$_GET['logged_out']; ?></h2>
         <h1>Admin Login</h1>
         <form method="post" action="login.php">
-            <input type="text" name="email" placeholder="Eamil" required="required" />
+            <input type="text" name="email" placeholder="Email" required="required" />
             <input type="password" name="password" placeholder="Password" required="required" />
             <button type="submit" class="btn btn-primary btn-block btn-large" name="login">Login</button>
         </form>
@@ -24,8 +24,8 @@ session_start();
 <?php 
     include("includes/db.php"); 
 	if(isset($_POST['login'])){
-		$email = mysql_real_escape_string($_POST['email']);
-		$pass = mysql_real_escape_string($_POST['password']);
+		$email = mysqli_real_escape_string($con, $_POST['email']);
+		$pass = mysqli_real_escape_string($con, $_POST['password']);
         $sel_user = "select * from admins where user_email='$email' AND user_pass='$pass'";
         $run_user = mysqli_query($con, $sel_user); 
         $check_user = mysqli_num_rows($run_user); 

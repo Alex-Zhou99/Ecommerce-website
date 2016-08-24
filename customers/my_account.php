@@ -14,7 +14,7 @@ include("functions/functions.php");
         <div class="main_wrapper">
             <!-- Header starts here-->
             <div class="header_wrapper">
-                <a href="index.php"><img id="logo" src="images/logo.gif"/></a>
+                <a href="../index.php"><img id="logo" src="images/logo.gif"/></a>
                 <img id="banner" src="images/ad-banner.gif"/>
             </div>
             <!-- Header ends here-->
@@ -22,12 +22,12 @@ include("functions/functions.php");
             <!-- Navegation Bar starts here-->
             <div class="menubar">
                 <ul id="menu"><!-- 无序列表-->
-                    <li><a href="index.php">Home</a></li>
-				    <li><a href="all_products.php">All Products</a></li>
-				    <li><a href="customer/my_account.php">My Account</a></li>
-				    <li><a href="#">Sign Up</a></li>
+                    <li><a href="../index.php">Home</a></li>
+				    <li><a href="../all_products.php">All Products</a></li>
+				    <li><a href="../customers/my_account.php">My Account</a></li>
+				    <li><a href="../customer_register.php">Sign Up</a></li>
 				    <li><a href="cart.php">Shopping Cart</a></li>
-				    <li><a href="#">Contact Us</a></li>
+				    <li><a href="../contact_us.php">Contact Us</a></li>
                     <div id="form">
                         <form method="get" action="results.php" enctype="multipart/form-data">
                             <input type="text" name="user_query" placeholder= "Search a Product"/>
@@ -105,6 +105,9 @@ include("functions/functions.php");
                             }
                             if(isset($_GET['delete_account'])){
                                 include("delete_account.php");
+                            }
+                            if(isset($_GET['my_orders'])){
+                                include("my_orders.php");
                             }
                         ?>
                     </div>
