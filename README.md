@@ -7,14 +7,17 @@ This is a project to create a complete e-commerce website which is online shoppi
 >>>[git demo](弄完再添加)
 * Project admin audit the deployment.
 * Developer deploy the deployment.
+
 ##Requirements
 * PHP & MySQL
 * XAMPP & Brackets
 * HTML & CSS
 * Javascript
 This's all. It's base of PHP environment!
+
 ##Installation
 * Install the XAMPP and Brackets.
+
 ##To do list
 * the paypal has some bugs:
 ```php
@@ -24,10 +27,12 @@ $trx_id = $_GET['tx'];
 ```
 it can't work and I will fix it.
 * I think the UI is too ugly and I will make it more good-looking.
+
 ##Custom
 ##Architecture
 ##Demo show
 ##Screenshots
+
 ##Discuss
 * [submit issue](https://github.com/shi-edward/Ecommerce-website/issues)
 * email: edwardshi95@gmail.com
