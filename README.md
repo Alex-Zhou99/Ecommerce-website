@@ -28,8 +28,8 @@ $trx_id = $_GET['tx'];
 it can't work and I will fix it.
 * I think the UI is too ugly and I will make it more good-looking.
 
-##Custom
 ##Architecture
+![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/ecommerce%20system.png)
 ##Demo show
 ##Screenshots
 
