@@ -31,6 +31,7 @@ it can't work and I will fix it.
 ##Architecture
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/ecommerce%20system.png)
 ##Demo show
+
 ##Screenshots
 
 ##Discuss
