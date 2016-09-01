@@ -33,7 +33,15 @@ it can't work and I will fix it.
 ##Demo show
 
 ##Screenshots
-
+index:
+<br>
+![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/main_screen.png)
+admin:
+<br>
+![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/main_screen_admin.png)
+database:
+<br>
+![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/database.png)
 ##Discuss
 * [submit issue](https://github.com/shi-edward/Ecommerce-website/issues)
 * email: edwardshi95@gmail.com
