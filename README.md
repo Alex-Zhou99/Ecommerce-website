@@ -33,13 +33,13 @@ it can't work and I will fix it.
 ##Demo show
 
 ##Screenshots
-index:
+###index:
 <br>
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/main_screen.png)
-admin:
+###admin:
 <br>
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/main_screen_admin.png)
-database:
+###database:
 <br>
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/database.png)
 ##Discuss
