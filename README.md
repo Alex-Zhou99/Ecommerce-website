@@ -4,7 +4,6 @@
 This is a project to create a complete e-commerce website which is online shopping store for selling/buying products with PHP, PHP, MySQLi, JavaScript, HTML and CSS. I created the website layout, user registration, login systems, shopping cart, checkout system, paypal integration system and admin panel.
 ##Quick Start
 * Sign up a admin user(admin/admin exists), then configure the project, add products to the project, detect it.
-  * [Demo show](弄完再添加)
 * Project admin audit the deployment.
 * Developer deploy the deployment.
 
@@ -30,18 +29,24 @@ it can't work and I will fix it.
 
 ##Architecture
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/ecommerce%20system.png)
-##Demo show
 
 ##Screenshots
-###index:
+* index:
 <br>
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/main_screen.png)
-###admin:
+* admin:
 <br>
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/main_screen_admin.png)
-###database:
+* database:
 <br>
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/database.png)
+##Demo show
+* login & shopping:
+<br>
+![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/ezgif.com-video-to-gif-2.gif)
+* admin:
+<br>
+![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/ezgif.com-video-to-gif.gif)
 ##Discuss
 * [submit issue](https://github.com/shi-edward/Ecommerce-website/issues)
 * email: edwardshi95@gmail.com
