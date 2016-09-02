@@ -41,6 +41,7 @@ it can't work and I will fix it.
 <br>
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/database.png)
 <br>
+
 ##Demo show
 * login & shopping:
 <br>
@@ -49,6 +50,7 @@ it can't work and I will fix it.
 <br>
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/ezgif.com-video-to-gif.gif)
 <br>
+
 ##Discuss
 * [submit issue](https://github.com/shi-edward/Ecommerce-website/issues)
 * email: edwardshi95@gmail.com
